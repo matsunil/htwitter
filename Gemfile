@@ -32,6 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #gem to use forms
 gem 'simple_form'
 
+gem 'devise'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
