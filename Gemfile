@@ -32,7 +32,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #gem to use forms
 gem 'simple_form'
 
+#gem for user registration
 gem 'devise'
+
+#gem for uploading files
+gem 'carrierwave'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
