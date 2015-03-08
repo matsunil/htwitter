@@ -39,7 +39,9 @@ gem 'devise'
 gem 'carrierwave'
 
 #gem for follower
-gem "acts_as_follower"
+gem 'acts_as_follower'
+
+gem 'twitter-text', '~> 1.10.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
