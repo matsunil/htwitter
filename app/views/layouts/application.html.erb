@@ -26,11 +26,11 @@
       <% if user_signed_in? %>
       <ul class="nav navbar-nav">
         <li class="active">
-        	<%= link_to "New Tweet", new_tweet_path %>
+        	<%= nav_link "New Tweet", new_tweet_path %>
         	<!--a href="#">Link <span class="sr-only">(current)</span></a-->
         </li>
         <li>
-        	<%= link_to "News Feed", tweets_path %>
+        	<%= nav_link "News Feed", tweets_path %>
         	<!--a href="#">Link</a-->
         </li>
          <!--li class="dropdown">
@@ -58,7 +58,7 @@
         	<% if user_signed_in? %>
         		<%= link_to "Log Out", destroy_user_session_path, method: :delete %>
         	<% else %>
-        		<%= link_to "Sign In", new_user_session_path %>
+        		<%= nav_link "Sign In", new_user_session_path %>
         	<% end %>
         	<!--a href="#">Link</a-->
         </li>
